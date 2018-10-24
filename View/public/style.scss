@@ -1,0 +1,54 @@
+body, html {
+
+    background-color: #ffA000;  
+}
+
+.middle {
+    
+    display:flex;
+    vertical-align: middle;
+    justify-content: center;
+    margin:0 auto;
+    margin-top:10%;
+    align-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 5em;
+    color:#000;
+    background: white;
+    padding:20px;
+    -moz-box-shadow: 0px 0px 20px 0px #ccc;
+    -webkit-box-shadow: 0px 0px 20px 0px #ccc;
+    -o-box-shadow: 0px 0px 20px 0px #ccc;
+    box-shadow: 0px 0px 20px 0px #ccc;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=20);
+}
+
+.middleMenu {
+
+    display:flex;
+    vertical-align: middle;
+    justify-content: center;
+    margin:0 auto;
+    list-style-type:none;
+
+}
+
+
+li {
+    padding:30px;
+}
+
+a {
+    color:white;
+    padding:10px;
+}
+
+a:hover {
+    color:#FFC107;
+    background: white;
+    padding:10px;
+    text-decoration: none;
+}

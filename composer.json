@@ -1,0 +1,16 @@
+{
+    "name": "mv/pa",
+    "require": {
+        "leafo/scssphp": "0.0.12",
+        "mustache/mustache": "~2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Router\\": "Router/",
+            "Controller\\": "Controller/",
+            "Model\\": "Model/",
+            "Celper\\": "Controller/Celper/",
+            "Melper\\": "Model/Melper/"
+        }
+    }
+}
