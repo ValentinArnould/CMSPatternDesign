@@ -15,6 +15,10 @@ namespace Controller;
 //            $view->renderView(__FUNCTION__);
         }
 
+        static function doc() {
+            $view = View::getInstance(__FUNCTION__);
+        }
+
         static function clients($arg = "") {
 
             if($arg == "edit" or (is_array($arg) and in_array("edit",$arg))) {
